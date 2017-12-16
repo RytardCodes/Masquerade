@@ -1,5 +1,5 @@
 module.exports = {
-    name: 'ban',
+    name: 'unban',
     aliases: [],
     permlevel: 3,
     description: 'Unbans a User',
