@@ -21,7 +21,7 @@ module.exports = {
                 var resolved = Promise.resolve(inv);
 
                 var inv2 = resolved.then(function(invite) {
-                    client.createMessage('391519785126461440', {
+                    client.createMessage('CHANNEL ID HERE', {
                         embed: {
                             author: {
                                 name: message.channel.guild.name,
