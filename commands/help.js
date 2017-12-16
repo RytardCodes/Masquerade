@@ -33,7 +33,7 @@ module.exports = {
 
             if (aliases.length === 0) {
                 aliases = 'No Aliases Set'
-            } else
+            }
             if (command.extraDesc.length === 0) {
                 command.extraDesc = 'No extra Description Set'
             }
