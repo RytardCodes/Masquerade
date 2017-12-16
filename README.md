@@ -8,5 +8,9 @@ A Discord Bot Created with the Discord Eris Library
 ## Installment
   - **Run `npm install --no optional eris` on your Terminal**
   
+## Other Dependencies
+  - **`moment.js`: Install with `npm install moment`**  
+  - **`cookiesdb`: Install with `npm install cookiesdb`**
+  
 ## Support
 Join our Chat [Here!](https://discord.gg/t9CPZ4h)
