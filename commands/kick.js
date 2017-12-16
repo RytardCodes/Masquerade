@@ -1,7 +1,7 @@
 module.exports = {
     name: 'kick',
     aliases: [],
-    permlevel: 1,
+    permlevel: 2,
     description: 'Kicks a User',
     extraDesc: 'Kicks a Specified user from the Current Guild',
     usage: '<@user> <reason>',

@@ -1,7 +1,7 @@
 module.exports = {
     name: 'shutdown',
-    aliases: ['reboot', 'off'],
-    permlevel: 5,
+    aliases: ['off'],
+    permlevel: 10,
     description: 'Shuts Down the Bot! Won\'t go online after',
     extraDesc: '',
     usage: '',

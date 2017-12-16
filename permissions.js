@@ -13,22 +13,26 @@ const permissions = {
         },
         {
             level: 1,
-            name: 'Server Kicker'
+            name: 'Server Message Manager'
         },
         {
             level: 2,
-            name: 'Server Banner'
+            name: 'Server Kicker'
         },
         {
             level: 3,
-            name: 'Server Admin'
+            name: 'Server Banner'
         },
         {
             level: 4,
-            name: 'Server Owner'
+            name: 'Server Admin'
         },
         {
             level: 5,
+            name: 'Server Owner'
+        },
+        {
+            level: 10,
             name: 'Bot Owner'
         }
     ]
