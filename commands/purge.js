@@ -2,9 +2,9 @@ module.exports = {
     name: 'purge',
     aliases: [],
     permlevel: 1,
-    description: '.',
+    description: 'Purge the XX Amount of Messages! Maximum is 200',
     extraDesc: '',
-    usage: '',
+    usage: '<Amount of Messages>',
     execute(client, message, args) {
         var result = args.join(' ');
         var messagecount = parseInt(result);
