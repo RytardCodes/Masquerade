@@ -20,7 +20,6 @@ module.exports = {
             
             var clearedMessage = client.createMessage(message.channel.id, `Deleted \`${messagesDel.length - 1}\` Message(s)!`)        
             Promise.resolve(clearedMessage).then(function(messageSent) {
-                console.log(messageSent.id)
                 setTimeout(function() {
                     message.channel.deleteMessage(messageSent.id)
                 }, 3000)
