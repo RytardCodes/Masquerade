@@ -10,7 +10,8 @@ A Discord Bot Created with the Discord Eris Library
   
 ## Other Dependencies
   - **`moment.js`: Install with `npm install moment`**  
-  - **`cookiesdb`: Install with `npm install cookiesdb`**
+  - **`cookiesdb`: Install with `npm install cookiesdb`**  
+  - **`moment-duration-format`: Install with `npm install moment-duration-format`**
   
 ## Support
 Join our Chat [Here!](https://discord.gg/t9CPZ4h)
