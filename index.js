@@ -2,7 +2,10 @@ const Eris = require('eris');
 const { bot_token, bot_ownerID } = require('./config.json');
 
 
-const client = new Eris(bot_token);
+const client = new Eris(bot_token, {
+    maxShards: 'auto'
+});
+
 const fs = require('fs');
 
 client.commands = new Eris.Collection();
